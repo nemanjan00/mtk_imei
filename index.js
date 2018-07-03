@@ -30,10 +30,6 @@ const imei = {
 			}
 		}
 		
-		fs.writeFileSync("./MP0B_001", outBuffer);
-
-		imei.decode(outBuffer);
-
 		return outBuffer;
 	},
 
@@ -61,5 +57,5 @@ const imei = {
 	}
 }
 
-imei.calc_imei("012345678912345");
+module.exports = imei;
 
