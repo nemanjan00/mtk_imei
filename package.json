@@ -1,0 +1,10 @@
+{
+  "name": "mtk_imei",
+  "version": "0.0.0",
+  "description": "JavaScript implementation of imei.c (and also MP0B_001 decoder)",
+  "main": "index.js",
+  "repository": "git@github.com:nemanjan00/mtk_imei.git",
+  "author": "nemanjan00",
+  "license": "MIT",
+  "private": false
+}
